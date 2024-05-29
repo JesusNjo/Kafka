@@ -17,11 +17,11 @@ public class SpringBootForProviderApplication {
 		SpringApplication.run(SpringBootForProviderApplication.class, args);
 	}
 
-	@Bean
+/*	@Bean
 	CommandLineRunner init(){
 		return args -> {
 			kafkaTemplate.send("topicExample-Topic","Final test from KAFKA part 3");
 		};
-	}
+	}*/
 
 }
